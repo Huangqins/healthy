@@ -1,0 +1,35 @@
+@import "/static/css/vendor.wxss";
+
+.tab.data-v-9c4b72be {
+  background-color: #41BEEC;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.tab .tab-item.data-v-9c4b72be {
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #c3c3c3;
+}
+.tab .tab-active.data-v-9c4b72be {
+  color: #fff;
+  position: relative;
+}
+.tab .tab-active.data-v-9c4b72be:after {
+  position: absolute;
+  content: ' ';
+  display: inline-block;
+  background-color: #fff;
+  bottom: 0;
+  width: 120rpx;
+  height: 8rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pullList.data-v-9c4b72be {
+  margin-top: 80rpx;
+}

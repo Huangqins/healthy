@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/commeny/main",
+    "pages/index/main",
+    "pages/mine/main",
+    "pages/recovery/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#41BEEC",
+    "navigationBarTitleText": "重塑",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#41BEEC",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "static/png/tabBar/ic_home_nor.png",
+        "selectedIconPath": "static/png/tabBar/ic_home_select.png"
+      },
+      {
+        "pagePath": "pages/recovery/main",
+        "text": "我的康复",
+        "iconPath": "static/png/tabBar/recovery_nor.png",
+        "selectedIconPath": "static/png/tabBar/recovery_select.png"
+      },
+      {
+        "pagePath": "pages/commeny/main",
+        "text": "社区",
+        "iconPath": "static/png/tabBar/commeny_nor.png",
+        "selectedIconPath": "static/png/tabBar/commeny_select.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "我的",
+        "iconPath": "static/png/tabBar/ic_mine_nor.png",
+        "selectedIconPath": "static/png/tabBar/ic_mine_select.png"
+      }
+    ]
+  }
+}

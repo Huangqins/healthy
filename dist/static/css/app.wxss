@@ -1,0 +1,13 @@
+
+._ul {
+  margin: 0;
+  padding: 0;
+}
+.fr {
+  float: right;
+}
+.container-common {
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 6rpx 6rpx #999 inset;
+}

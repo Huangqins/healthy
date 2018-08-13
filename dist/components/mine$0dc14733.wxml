@@ -1,0 +1,21 @@
+<template name="mine$0dc14733">
+  <view class="_div data-v-63553668 mine container-common">
+    <view class="_div data-v-63553668 mine-user">
+      <view class="_div data-v-63553668 mine-user-avatar">
+        <image src="{{userInfo.openId ? userInfo.avatarUrl : noUserInfo.avatarUrl}}" alt class="_img data-v-63553668"></image>
+        <view class="_div data-v-63553668 mine-user-info">
+          <view class="_h2 data-v-63553668">{{userInfo.openId ? userInfo.nickName: '尚未登录'}}</view>
+          <view class="_p data-v-63553668">普通用户哦</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-63553668 mine-fun">
+      <view class="_ul data-v-63553668">
+        <view wx:key="index" key="{{index}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item" class="_li data-v-63553668 {{[index === 2 ? 'liver' : '']}}">
+          <image src="{{item.iconUrl}}" class="_img data-v-63553668"></image> {{ item.navTitle }}
+          <image src="{{arrowIcon}}" class="_img data-v-63553668 fr" style="margin-right:10px;"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

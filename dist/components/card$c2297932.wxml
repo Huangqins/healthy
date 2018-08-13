@@ -1,0 +1,20 @@
+<template name="card$c2297932">
+  <view class="_div data-v-21008eae card">
+    <view class="_div data-v-21008eae card-detail">
+      <view class="_div data-v-21008eae card-detail-title">
+        <view class="_h5 data-v-21008eae">{{item.title}}</view>
+        <label class="_span data-v-21008eae">{{time}}</label>
+      </view>
+      <view class="_div data-v-21008eae card-detail-des"> {{item.tabloid}} </view>
+      <view class="_div data-v-21008eae card-detail-status">
+        <label class="_span data-v-21008eae authorName">{{item.author}}</label>
+        <label class="_span data-v-21008eae sikm-num">{{item.times}}</label>
+        <label class="_span data-v-21008eae comment-num">{{item.comments}}</label>
+        <label class="_span data-v-21008eae praise-num">{{item.likeTimes}}</label>
+      </view>
+    </view>
+    <view class="_div data-v-21008eae card-img">
+      <image src="{{item.thumbnailPath}}" class="_img data-v-21008eae"></image>
+    </view>
+  </view>
+</template>

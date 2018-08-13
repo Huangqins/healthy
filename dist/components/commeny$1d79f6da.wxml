@@ -1,0 +1,15 @@
+<import src="card$c2297932" />
+<template name="commeny$1d79f6da">
+  <view class="_div data-v-9c4b72be commeny">
+    <view class="_div data-v-9c4b72be tab">
+      <view wx:key="item.title" key="{{item.title}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabList}}" wx:for-index="index" wx:for-item="item" class="_div data-v-9c4b72be {{['tab-item', [index === tabActiveIndex ? 'tab-active' : '']]}}">
+      {{ item.title }} </view>
+    </view>
+    <view class="_div data-v-9c4b72be pullList">
+      <view wx:if="{{tabType === 'knowledge'}}" class="_div data-v-9c4b72be">
+        <template wx:key="index" wx:if="{{knowledgeList.length > 0}}" data="{{...$root[$kk+'0-'+index], $root}}" is="card$c2297932" wx:for="{{knowledgeList}}" wx:for-index="index" wx:for-item="item"></template>
+      </view>
+      <view wx:else class="_div data-v-9c4b72be"> 你好啊 </view>
+    </view>
+  </view>
+</template>
